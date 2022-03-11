@@ -36,7 +36,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/TriggerLeft"
+							"output": "/actions/main/in/PointLeft"
 						}
 					}
 				},
@@ -47,7 +47,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/TriggerRight"
+							"output": "/actions/main/in/PointRight"
 						}
 					}
 				},
@@ -70,50 +70,6 @@
 						"position":
 						{
 							"output": "/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/grip",
-					"inputs":
-					{
-						"pull":
-						{
-							"output": "/actions/main/in/GrabAxisLeft axis"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
-					"inputs":
-					{
-						"pull":
-						{
-							"output": "/actions/main/in/TriggerAxisLeft axis"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"pull":
-						{
-							"output": "/actions/main/in/TriggerAxisRight axis"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/grip",
-					"inputs":
-					{
-						"pull":
-						{
-							"output": "/actions/main/in/GrabAxisRight axis"
 						}
 					}
 				}
