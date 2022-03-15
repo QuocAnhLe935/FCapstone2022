@@ -21,6 +21,11 @@ UCLASS()
 class FCAPSTONE2022_API ATile : public AActor
 {
 	GENERATED_BODY()
+public:
+	UPROPERTY(VisibleInstanceOnly, Category = "Tile")
+		//if it's top left corner, will be (0, 0)
+		//represent where it is in 2D grid
+		FIntPoint TileIndex;
 protected:
 	//UPROPERTY to expose to the editor
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Tile")
