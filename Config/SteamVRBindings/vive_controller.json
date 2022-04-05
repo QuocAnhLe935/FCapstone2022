@@ -8,8 +8,8 @@
 		{
 			"sources": [
 				{
-					"mode": "button",
-					"path": "/user/hand/left/input/grip",
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
 						"click":
@@ -19,8 +19,8 @@
 					}
 				},
 				{
-					"mode": "button",
-					"path": "/user/hand/right/input/grip",
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
 						"click":
@@ -30,68 +30,46 @@
 					}
 				},
 				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TriggerLeft"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TriggerRight"
-						}
-					}
-				},
-				{
-					"mode": "scalar_constant",
+					"mode": "button",
 					"path": "/user/hand/left/input/grip",
 					"inputs":
 					{
-						"value":
+						"click":
 						{
-							"output": "/actions/main/in/GrabAxisLeft axis"
+							"output": "/actions/main/in/PointLeft"
 						}
 					}
 				},
 				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
-					"inputs":
-					{
-						"pull":
-						{
-							"output": "/actions/main/in/TriggerAxisLeft axis"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"pull":
-						{
-							"output": "/actions/main/in/TriggerAxisRight axis"
-						}
-					}
-				},
-				{
-					"mode": "scalar_constant",
+					"mode": "button",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
-						"value":
+						"click":
 						{
-							"output": "/actions/main/in/GrabAxisRight axis"
+							"output": "/actions/main/in/PointRight"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/left/input/trackpad",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/right/input/trackpad",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d"
 						}
 					}
 				}

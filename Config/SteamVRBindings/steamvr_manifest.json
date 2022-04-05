@@ -156,11 +156,11 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/TriggerLeft",
+			"name": "/actions/main/in/PointLeft",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/TriggerRight",
+			"name": "/actions/main/in/PointRight",
 			"type": "boolean"
 		},
 		{
@@ -172,20 +172,12 @@
 			"type": "vector2"
 		},
 		{
-			"name": "/actions/main/in/GrabAxisLeft axis",
-			"type": "vector1"
+			"name": "/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d",
+			"type": "vector2"
 		},
 		{
-			"name": "/actions/main/in/TriggerAxisLeft axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/TriggerAxisRight axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/GrabAxisRight axis",
-			"type": "vector1"
+			"name": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d",
+			"type": "vector2"
 		}
 	],
 	"action_sets": [
@@ -430,14 +422,12 @@
 			"/actions/main/in/open_console": "Open Console",
 			"/actions/main/in/GrabLeft": "GrabLeft",
 			"/actions/main/in/GrabRight": "GrabRight",
-			"/actions/main/in/TriggerLeft": "TriggerLeft",
-			"/actions/main/in/TriggerRight": "TriggerRight",
+			"/actions/main/in/PointLeft": "PointLeft",
+			"/actions/main/in/PointRight": "PointRight",
 			"/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d": "MovementAxisLeft",
 			"/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d": "MovementAxisRight",
-			"/actions/main/in/GrabAxisLeft axis": "GrabAxisLeft",
-			"/actions/main/in/TriggerAxisLeft axis": "TriggerAxisLeft",
-			"/actions/main/in/TriggerAxisRight axis": "TriggerAxisRight",
-			"/actions/main/in/GrabAxisRight axis": "GrabAxisRight",
+			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
+			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main": "Main Game Actions"
 		}
 	]
