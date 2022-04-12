@@ -58,7 +58,7 @@
 					{
 						"position":
 						{
-							"output": "/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d"
+							"output": "/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d"
 						}
 					}
 				},
@@ -69,7 +69,7 @@
 					{
 						"position":
 						{
-							"output": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d"
+							"output": "/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d"
 						}
 					}
 				}
