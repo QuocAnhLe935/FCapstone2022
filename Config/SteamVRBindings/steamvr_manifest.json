@@ -168,6 +168,10 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/AerialToggle",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d",
 			"type": "vector2"
 		},
@@ -429,6 +433,7 @@
 			"/actions/main/in/PointLeft": "PointLeft",
 			"/actions/main/in/PointRight": "PointRight",
 			"/actions/main/in/MenuToggle": "MenuToggle",
+			"/actions/main/in/AerialToggle": "AerialToggle",
 			"/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d": "MovementAxisLeft",
 			"/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d": "MovementAxisRight",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
