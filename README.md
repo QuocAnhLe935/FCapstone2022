@@ -2,6 +2,6 @@
 
 Developed with Unreal Engine 4
 
-Tool Trailer:
+Trailer:
 
 Demo:
