@@ -6,4 +6,6 @@ Developed with Unreal Engine 4
 
 Trailer: https://youtu.be/5CnFzYaKIXU
 
-Demo:
+Demo: https://youtu.be/tv8IOXEKVRs
+
+Reality Complex is a VR City Builder that allows the player to create and view their own city in an immersive experience, while lessen the workload, reduce time, money, and materials spent building physical mockup.
