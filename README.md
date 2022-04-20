@@ -12,7 +12,11 @@ Reality Complex is a VR City Builder that allows the player to create and view t
 
 
 Credits: 
+
   Nathan Ostenberg - https://www.linkedin.com/in/nathan-ostenberg-7a173410b/
+  
   Marcel Bonnet - https://www.linkedin.com/in/marcel--bonnet/
+  
   Bryan Rasmussen - https://www.linkedin.com/in/bryan-rasmussen-80254b19b/
+  
   Quoc Le - https://www.linkedin.com/in/qal/
